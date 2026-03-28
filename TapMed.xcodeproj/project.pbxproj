@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8F682D212F786ABF003BC68F /* ConnectionSettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F682D202F786ABC003BC68F /* ConnectionSettingsViews.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8F682D002F784D52003BC68F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		8F682CF02F784D51003BC68F /* TapMed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapMed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F682CFF2F784D52003BC68F /* TapMedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F682D092F784D52003BC68F /* TapMedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F682D202F786ABC003BC68F /* ConnectionSettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionSettingsViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		8F682CE72F784D51003BC68F = {
 			isa = PBXGroup;
 			children = (
+				8F682D202F786ABC003BC68F /* ConnectionSettingsViews.swift */,
 				8F682CF22F784D51003BC68F /* TapMed */,
 				8F682D022F784D52003BC68F /* TapMedTests */,
 				8F682D0C2F784D52003BC68F /* TapMedUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F682D212F786ABF003BC68F /* ConnectionSettingsViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
