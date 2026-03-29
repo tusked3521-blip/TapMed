@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F682D212F786ABF003BC68F /* ConnectionSettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F682D202F786ABC003BC68F /* ConnectionSettingsViews.swift */; };
+		8F682D2B2F78B1F0003BC68F /* InsuranceMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F682D2A2F78B1ED003BC68F /* InsuranceMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		8F682CFF2F784D52003BC68F /* TapMedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F682D092F784D52003BC68F /* TapMedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F682D202F786ABC003BC68F /* ConnectionSettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionSettingsViews.swift; sourceTree = "<group>"; };
+		8F682D2A2F78B1ED003BC68F /* InsuranceMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +82,7 @@
 		8F682CE72F784D51003BC68F = {
 			isa = PBXGroup;
 			children = (
+				8F682D2A2F78B1ED003BC68F /* InsuranceMapView.swift */,
 				8F682D202F786ABC003BC68F /* ConnectionSettingsViews.swift */,
 				8F682CF22F784D51003BC68F /* TapMed */,
 				8F682D022F784D52003BC68F /* TapMedTests */,
@@ -201,6 +204,9 @@
 			);
 			mainGroup = 8F682CE72F784D51003BC68F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8F682D2C2F78B33E003BC68F /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8F682CF12F784D51003BC68F /* Products */;
 			projectDirPath = "";
@@ -242,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F682D2B2F78B1F0003BC68F /* InsuranceMapView.swift in Sources */,
 				8F682D212F786ABF003BC68F /* ConnectionSettingsViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +584,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F682D2C2F78B33E003BC68F /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 8F682CE82F784D51003BC68F /* Project object */;
 }
